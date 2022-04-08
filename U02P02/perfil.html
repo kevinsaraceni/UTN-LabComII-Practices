@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">MIS DATOS PERSONALES</h1>
+
+    <form>
+
+        <label for="ocupacion">Ocupación:</label>
+        <input type="text" id="ocupacion" readonly value="ESTUDIANTE">
+
+        <br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+
+        <br>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email">
+
+        <br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="18" max="70">
+
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="Argentina">Argentina</option>
+            <option value="España">España</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+        </select>
+
+        <label for="laboral">Condición laboral:</label>
+        <select name="laboral" id="laboral">
+            <option value="Desempleado">Desempleado</option>
+            <option value="En búsqueda laboral">En búsqueda laboral</option>
+            <option value="Trabajo Part Time">Trabajo Part Time</option>
+            <option value="Trabajo Full Time">Trabajo Full Time</option>
+        </select>
+
+        <br><br><br>
+
+        <fieldset>
+            <legend>Gustos Personales</legend>
+
+            <label for="música">Gustos musicales:</label>
+            <br>
+            <textarea style="resize:none;" name="música" id="música" cols="30" rows="10"></textarea>
+
+            <h4>Comidas favoritas</h4>
+            <label for="comida1">Asado</label>
+            <input type="checkbox" name="comida1" id="comida1">
+
+            <label for="comida2">Ravioles</label>
+            <input type="checkbox" name="comida2" id="comida2">
+
+            <label for="comida3">Polenta</label>
+            <input type="checkbox" name="comida3" id="comida3">
+
+            <label for="comida4">Fideos</label>
+            <input type="checkbox" name="comida4" id="comida4">
+
+            <label for="comida5">Empanadas</label>
+            <input type="checkbox" name="comida5" id="comida5">
+
+            <label for="comida6">Paella</label>
+            <input type="checkbox" name="comida6" id="comida6">
+
+        </fieldset>
+
+        <br>
+
+        <label for="credenciales">Recordarme</label>
+        <input type="checkbox">
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar formulario</button>
+
+    </form>
+
+</body>
+
+</html>
