@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercera página</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Bienvenidos a la página del Sheriff</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">E-Mail:</label>
+                            <input type="email" name="email" id="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="edad">Edad:</label>
+                            <input type="number" id="edad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="color">Color preferido:</label>
+                            <input type="color" name="color" id="color">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comentario">Comentario</label>
+                            <br>
+                            <textarea style="resize:none;" name="comentario" id="comentario" cols="130" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+
+                <input type="submit" name="enviar" id="enviar">
+
+            </form>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Este sitio es un sitio creado por Kevin Saraceni utilizando los conocimientos aprendidos en la cátedra de Laboratorio de Computación II de la Tecnicatura Universitaria en Programación para darle vida a la primer web dedicada pura y exclusivamente
+                a la magia de ElSheriff94 en el mundo del gaming.</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright Kevin Saraceni - ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+
+</html>
