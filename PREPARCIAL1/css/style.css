@@ -1,0 +1,63 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+header ul li {
+    display: inline-flex;
+}
+
+.logo {
+    height: 50px;
+}
+
+div.profile {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar {
+    flex-grow: 1
+}
+
+.navbar a {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0%;
+}
+
+.main-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.alumnos {
+    height: 50%;
+    width: 50%;
+}
+
+.img-background {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 10%;
+}
+
+.img-content {
+    margin: 50px;
+    text-align: left;
+}
